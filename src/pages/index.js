@@ -15,8 +15,8 @@ const Home = () => {
       <section className="container h-50">
         <div className="row">
           <div className="col-6">
-            <h2>A Portfolio Hosting Platform for Data Analysts</h2>
-            <p>
+            <h2 className="display-4 py-3">A Portfolio Hosting Platform for Data Analysts</h2>
+            <p className="">
               No more stress. Upload your works. Share them to anyone. Increase
               your competence.
             </p>
@@ -32,7 +32,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="m-3">
+      <section className="my-3 mx-5">
         <h2>Features</h2>
         <div className="row card-group">
           <div className="card col-md-3 px-0 m-2 px-0">
@@ -78,16 +78,16 @@ const Home = () => {
           <p className="text-white h3">What is Bizka?</p>
           <p className="text-white mb-4">
             Bizka is a platform specifically made for data analysts to share
-            their works to the public without using any forom of code.
+            their works to the public without using any form of code.
           </p>
         </div>
         <div className="text-center text-white pt-0 pb-5">
-          <img src="youtube" alt="youtube" />
-          <span className="text-white">Watch video</span>
+          <span className="btn btn-danger mx-1 px-3 py-0"><i className="fa fa-play"></i></span>
+          <span className="text-white h6">Watch video</span>
         </div>
       </section>
 
-      <section className="container-fluid text-center">
+      <section className="container text-center">
         <p className="h3 pt-3">From the Bizka Blog</p>
         <div className="row card-group">
           <div className="card col-md-4 px-0 m-4">
