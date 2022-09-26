@@ -17,7 +17,6 @@ const Login = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const [showPwd, setShowPwd] = useState(false);
-  const [success, setSuccess] = useState(false);
   const [Errorss, setErrorss] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
 
@@ -44,7 +43,6 @@ const Login = () => {
           console.log(res);
           if (res.status === 200) {
             const resp = res.data.success;
-            setSuccess(resp);
             dispatch(login(resp));
             navigate("/user");
           }
